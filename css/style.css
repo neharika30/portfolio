@@ -1454,7 +1454,8 @@ body.offcanvas {
 .project .desc span { color: rgba(255, 255, 255, 0.9);font-size: 15px; }
 .otherclass{display:none;}
      @media screen and (max-width: 480px) {
-		  .colorlib-contact {
-      padding-top: 20px;
-      padding-bottom: 30px; } 
+	.colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+
+      padding-top: 20px!important;
+      padding-bottom: 30px !important; } 
 	 }
