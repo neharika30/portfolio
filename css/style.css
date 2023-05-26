@@ -395,7 +395,7 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+     /* padding-bottom: 8em; */} }
 
 .author-img {
   background-size: cover;
@@ -1453,4 +1453,8 @@ body.offcanvas {
 .project .desc p.icon{ margin-top: 10px; margin-bottom: 0px; }
 .project .desc span { color: rgba(255, 255, 255, 0.9);font-size: 15px; }
 .otherclass{display:none;}
-   
+     @media screen and (max-width: 480px) {
+		  .colorlib-contact {
+      padding-top: 20px;
+      padding-bottom: 30px; } 
+	 }
