@@ -1026,7 +1026,14 @@ body.offcanvas {
           color: #000; }
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0); } }
+          transform: translate3d(0, 0, 0); }
+		  
+		    .project .desc .con {
+      
+        background-color: #00000080;
+
+      }
+		   }
   .project:hover .desc {
     opacity: 1; }
     .project:hover .desc h3 {
@@ -1448,9 +1455,14 @@ body.offcanvas {
 /*----------------- New Css -------------*/
 
 .project .desc { display: table;  width: 100%; height: 100%; text-align: center;}
-.timeline-label span {  float: right; }
+
 .project .desc h3 { margin-bottom: 5px; color:white; }
 .project .desc p.icon{ margin-top: 10px; margin-bottom: 0px; }
 .project .desc span { color: rgba(255, 255, 255, 0.9);font-size: 15px; }
 .otherclass{display:none;}
-
+  @media screen and (max-width: 400px) {
+.timeline-label span {   float: none;}
+  }
+ @media screen and (min-width: 768px) {
+	   .timeline-label span {  float: right; }
+	   }
